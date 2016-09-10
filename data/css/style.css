@@ -1,0 +1,39 @@
+body {
+  font-family: cursive;
+}
+.container{
+  padding-top:20px;
+  height: 100%;
+}
+.chatbox{
+	width: 100%;
+	height: 200px;
+	overflow-y:scroll;
+	background: rgba(146, 121, 110, 0.26);
+	border-radius: 0px;
+    border: solid 1px #BDBDBD;
+}
+.msg_box{
+	border-radius: 0px;
+    border: solid 1px #BDBDBD;
+}
+.user li{
+	text-decoration: none;
+	list-style-type: none;
+	padding: 10px;
+	cursor: pointer;
+}
+.you{
+	font-size: 10px;
+	float: right;
+	color: #353535;
+}
+p{
+	margin: 50px;
+}
+.sender{
+	font-size: 25px;
+}
+.sender_msg{
+	padding-left: 25px;
+}
